@@ -1,0 +1,58 @@
+# Общие временные файлы
+*.swp
+*.swo
+*.bak
+
+# Объектные файлы и библиотеки
+*.o
+*.a
+*.so
+*.dylib
+
+
+# compilation output
+build/
+dist/
+bin/
+
+# Директории для временных файлов компилятора и линкера
+*.dSYM/
+*.d
+
+# Файлы конфигурации сред разработки
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Локальные конфигурационные файлы
+config.h
+config.mk
+
+# Файлы журнала и дампы памяти
+*.log
+core.*
+
+# Сборочные системы
+Makefile
+makefile
+CMakeLists.txt.user
+cmake-build-*/
+
+# Временные файлы отладчика
+.gdb_history
+.gdbinit
+
+# Результаты статического анализа кода
+*.gcov
+*.gcda
+*.gcno
+
+# Директории для временных файлов и кэша
+/tmp/
+.cache/
+*.cache
+
+# Скрытые файлы и директории
+.DS_Store
+Thumbs.db
